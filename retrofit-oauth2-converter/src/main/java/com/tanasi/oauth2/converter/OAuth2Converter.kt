@@ -18,7 +18,7 @@ class OAuth2Converter : Converter<ResponseBody, Any?> {
 
         val accessToken = jsonObject.optString("access_token")
         val tokenType = jsonObject.optString("token_type")
-        val expiresIn = jsonObject.optString("expires_in")
+        val expiresIn = jsonObject.optInt("expires_in")
         val refreshToken = jsonObject.optString("refresh_token")
         val scope = jsonObject.optString("scope")
         val sub = jsonObject.optString("sub")

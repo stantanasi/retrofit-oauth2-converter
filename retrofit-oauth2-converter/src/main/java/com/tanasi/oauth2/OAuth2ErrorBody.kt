@@ -41,4 +41,5 @@ sealed class OAuth2ErrorBody(
             override val description: String? = null,
             override val uri: String? = null
     ) : OAuth2ErrorBody(raw, description, uri)
+
 }
