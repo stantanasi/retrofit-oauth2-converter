@@ -1,0 +1,3 @@
+include ':retrofit-oauth2-converter'
+include ':app'
+rootProject.name = "RetrofitOAuth2ConverterExample"
